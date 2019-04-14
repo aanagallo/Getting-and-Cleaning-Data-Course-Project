@@ -11,3 +11,8 @@ Read training and test dataset into R environment. Read variable names into R en
 * Uses descriptive activity names to name the activities in the data set Convert activity labels to characters and add a new column as factor
 * Appropriately labels the data set with descriptive variable names. Give the selected descriptive names to variable columns
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Use pipeline command to create a new tidy dataset with command group_by and summarize_each in dplyr package
+
+## The following files are:
+* CodeBook.md <- shows the variables and elements in the tidydata.txt
+* tidydata.txt <- shows the result of the code from run_analysis.R
+* run_analysis.R <- shows the computation in cleaning data
