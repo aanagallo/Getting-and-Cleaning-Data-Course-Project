@@ -15,7 +15,7 @@ Subject column is numbered sequentially from 1 to 30. Activity column has 6 type
 * SITTING
 * STANDING
 * LAYING
-## The tidy data contains 6 rows (averaged based on activity) and 88 columns (variables and activity labels).
+## The tidy data contains 88 columns (variables and activity labels).
 * "Subject" 
 * "Activity"
 * "TimeBodyAccelerometerMean()-X"
