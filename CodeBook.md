@@ -1,0 +1,108 @@
+# Tidy Data Description
+## The variables in the tidy data
+Tidy data contains 180 rows and 68 columns. 
+Each row has averaged variables for each subject and each activity.
+
+## All the variables estimated from mean and standard deviation in the tidy set were kept.
+mean(): Mean value
+std(): Standard deviation
+
+## The data were averaged based on subject and activity group.
+Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
+## The tidy data contains 6 rows (averaged based on activity) and 88 columns (variables and activity labels).
+"Subject" 
+"Activity"
+"TimeBodyAccelerometerMean()-X"
+"TimeBodyAccelerometerMean()-Y"
+"TimeBodyAccelerometerMean()-Z"
+"TimeBodyAccelerometerSTD()-X"
+"TimeBodyAccelerometerSTD()-Y"
+"TimeBodyAccelerometerSTD()-Z"
+"TimeGravityAccelerometerMean()-X"
+"TimeGravityAccelerometerMean()-Y"
+"TimeGravityAccelerometerMean()-Z"
+"TimeGravityAccelerometerSTD()-X"
+"TimeGravityAccelerometerSTD()-Y"
+"TimeGravityAccelerometerSTD()-Z"
+"TimeBodyAccelerometerJerkMean()-X"
+"TimeBodyAccelerometerJerkMean()-Y"
+"TimeBodyAccelerometerJerkMean()-Z"
+"TimeBodyAccelerometerJerkSTD()-X"
+"TimeBodyAccelerometerJerkSTD()-Y"
+"TimeBodyAccelerometerJerkSTD()-Z"
+"TimeBodyGyroscopeMean()-X" 
+"TimeBodyGyroscopeMean()-Y"
+"TimeBodyGyroscopeMean()-Z"
+"TimeBodyGyroscopeSTD()-X" 
+"TimeBodyGyroscopeSTD()-Y"
+"TimeBodyGyroscopeSTD()-Z"
+"TimeBodyGyroscopeJerkMean()-X"
+"TimeBodyGyroscopeJerkMean()-Y"
+"TimeBodyGyroscopeJerkMean()-Z"
+"TimeBodyGyroscopeJerkSTD()-X"
+"TimeBodyGyroscopeJerkSTD()-Y"
+"TimeBodyGyroscopeJerkSTD()-Z"
+"TimeBodyAccelerometerMagnitudeMean()" 
+"TimeBodyAccelerometerMagnitudeSTD()"
+"TimeGravityAccelerometerMagnitudeMean()" 
+"TimeGravityAccelerometerMagnitudeSTD()" 
+"TimeBodyAccelerometerJerkMagnitudeMean()"
+"TimeBodyAccelerometerJerkMagnitudeSTD()"
+"TimeBodyGyroscopeMagnitudeMean()"
+"TimeBodyGyroscopeMagnitudeSTD()"
+"TimeBodyGyroscopeJerkMagnitudeMean()" 
+"TimeBodyGyroscopeJerkMagnitudeSTD()"
+"FrequencyBodyAccelerometerMean()-X"
+"FrequencyBodyAccelerometerMean()-Y"
+"FrequencyBodyAccelerometerMean()-Z"
+"FrequencyBodyAccelerometerSTD()-X" 
+"FrequencyBodyAccelerometerSTD()-Y" 
+"FrequencyBodyAccelerometerSTD()-Z"
+"FrequencyBodyAccelerometerMeanFreq()-X" 
+"FrequencyBodyAccelerometerMeanFreq()-Y"
+"FrequencyBodyAccelerometerMeanFreq()-Z"
+"FrequencyBodyAccelerometerJerkMean()-X"
+"FrequencyBodyAccelerometerJerkMean()-Y"
+"FrequencyBodyAccelerometerJerkMean()-Z"
+"FrequencyBodyAccelerometerJerkSTD()-X" 
+"FrequencyBodyAccelerometerJerkSTD()-Y" 
+"FrequencyBodyAccelerometerJerkSTD()-Z" 
+"FrequencyBodyAccelerometerJerkMeanFreq()-X"
+"FrequencyBodyAccelerometerJerkMeanFreq()-Y"
+"FrequencyBodyAccelerometerJerkMeanFreq()-Z"
+"FrequencyBodyGyroscopeMean()-X"
+"FrequencyBodyGyroscopeMean()-Y"
+"FrequencyBodyGyroscopeMean()-Z"
+"FrequencyBodyGyroscopeSTD()-X"
+"FrequencyBodyGyroscopeSTD()-Y"
+"FrequencyBodyGyroscopeSTD()-Z"
+"FrequencyBodyGyroscopeMeanFreq()-X" 
+"FrequencyBodyGyroscopeMeanFreq()-Y" 
+"FrequencyBodyGyroscopeMeanFreq()-Z"
+"FrequencyBodyAccelerometerMagnitudeMean()" 
+"FrequencyBodyAccelerometerMagnitudeSTD()"
+"FrequencyBodyAccelerometerMagnitudeMeanFreq()" 
+"FrequencyBodyAccelerometerJerkMagnitudeMean()" 
+"FrequencyBodyAccelerometerJerkMagnitudeSTD()" 
+"FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()"
+"FrequencyBodyGyroscopeMagnitudeMean()" 
+"FrequencyBodyGyroscopeMagnitudeSTD()" 
+"FrequencyBodyGyroscopeMagnitudeMeanFreq()"
+"FrequencyBodyGyroscopeJerkMagnitudeMean()" 
+"FrequencyBodyGyroscopeJerkMagnitudeSTD()"
+"FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()" 
+"Angle(TimeBodyAccelerometerMean,Gravity)"
+"Angle(TimeBodyAccelerometerJerkMean),GravityMean)"
+"Angle(TimeBodyGyroscopeMean,GravityMean)"
+"Angle(TimeBodyGyroscopeJerkMean,GravityMean)"
+"Angle(X,GravityMean)" 
+"Angle(Y,GravityMean)"
+"Angle(Z,GravityMean)"
+## Variable units
+Activity variable is factor type. Subject variable is integer type. All the other variables are numeric type.
